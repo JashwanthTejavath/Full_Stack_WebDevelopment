@@ -21,8 +21,8 @@ function GetValue(){
   var InpValue = document.getElementsByClassName("input-field")[0]
   const cityname = InpValue.value;
   console.log(InpValue.value)
-  // const apiLink = `http://api.weatherapi.com/v1/current.json?key=bc85ca2527114f0d86b65521241801&q=$${cityname}`
-  const apiLink = `http://api.weatherapi.com/v1/current.json?key=1831c43826f143eabf6145453240904&q=${cityname}&aqi=yes`;
+  const apiLink = `http://api.weatherapi.com/v1/current.json?key=bc85ca2527114f0d86b65521241801&q=$${cityname}`
+  // const apiLink = `http://api.weatherapi.com/v1/current.json?key=1831c43826f143eabf6145453240904&q=${cityname}&aqi=yes`;
   console.log(apiLink);
   InpValue.value = ""
 
